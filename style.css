@@ -1,12 +1,12 @@
 html {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .AVP {
@@ -22,11 +22,20 @@ body {
   border-radius: 16px;
 }
 
+.avp_title {
+  background-image: linear-gradient(45deg, #6f04d9, #8a045c);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  border-radius: 16px;
+  
+}
+
 .battle {
-    background-image: linear-gradient(45deg, #6f04d9, #8a045c);
-    margin-top: 1rem;
-    font-size: 2rem;
-    border-radius: 16px;
+  background-image: linear-gradient(45deg, #6f04d9, #8a045c);
+  margin-top: 1rem;
+  font-size: 2rem;
+  border-radius: 16px;
 }
 
 .flip-card {
@@ -60,7 +69,7 @@ body {
 }
 
 .flip-card-front {
-  background-image: linear-gradient(45deg, #6f04d9, #d9048e);
+  background-image: linear-gradient(45deg, #6f04d9, #8a045c);
 }
 
 .flip-card-front img {
@@ -69,7 +78,7 @@ body {
 }
 
 .flip-card-back {
-  background-image: linear-gradient(315deg, #6f04d9, #8a045c);
+  background-image: linear-gradient(225deg, #8a045c, #6f04d9);
   transform: rotateY(180deg);
 }
 
